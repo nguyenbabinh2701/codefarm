@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nửa hình tròn</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      position: relative;
+      height: 300px;
+      background: #f5f5f5;
+    }
+
+    /* Nửa tròn cơ bản */
+    .circle {
+      width: 100px;
+      height: 50px;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+      position: absolute;
+    }
+
+    .circle:nth-child(1) {
+      background-color: aquamarine;
+      top: 0;
+      left: 0;
+    }
+
+    .circle:nth-child(2) {
+      background-color: blue;
+      top: 50px;
+      left: 50px;
+      transform: rotate(180deg); /* nửa tròn quay ngược lại */
+    }
+
+    .circle:nth-child(3) {
+      background-color: antiquewhite;
+      top: 0px;
+      left: 100px;
+      
+    }
+
+    .circle:nth-child(4) {
+      background-color: blueviolet;
+      top: 50px;
+      left: 150px;
+      transform: rotate(180deg);
+    }
+    .circle:nth-child(5) {
+      background-color: aquamarine;
+      top: 0;
+      left: 200px;
+    }
+
+    .circle:nth-child(6) {
+      background-color: blue;
+      top: 50px;
+      left: 250px;
+      transform: rotate(180deg); /* nửa tròn quay ngược lại */
+    }
+
+    .circle:nth-child(7) {
+      background-color: antiquewhite;
+      top: 0px;
+      left: 300px;
+      
+    }
+
+    .circle:nth-child(8) {
+      background-color: blueviolet;
+      top: 50px;
+      left: 350px;
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</body>
+</html>
